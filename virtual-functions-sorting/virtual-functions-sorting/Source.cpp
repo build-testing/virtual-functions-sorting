@@ -29,14 +29,15 @@ int main()
 
 	{
 		MyClass2* p = new MyClass2();
-		p->xx();//			MSVC-2019: +10
-		p->xx(2);//			MSVC-2019: +8
-		p->xx(4, 4);//		MSVC-2019: +0
-		p->yy();//			MSVC-2019: +18
+		p->xx();//			MSVC-2015/2019: +10
+		p->xx(2);//			MSVC-2015/2019: +8
+		p->xx(4, 4);//		MSVC-2015/2019: +0
+		p->yy();//			MSVC-2015/2019: +18
 	}
 	
 	return 0;
 }
+
 
 
 
