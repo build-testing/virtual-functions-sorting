@@ -8,6 +8,7 @@ public:
 	virtual void xx() = 0;
 	virtual void yy() = 0;
 	virtual void xx(int) = 0;
+	virtual void xx(int,int) = 0;
 };
 
 class MyClass2
